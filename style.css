@@ -1,0 +1,67 @@
+/* Grundlegendes Layout */
+body {
+  background-color: #f4f4f9;
+  color: #222;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 20px;
+}
+
+/* Titel */
+h1 {
+  font-size: 2em;
+  color: #c20f2f; /* SPD-Rot */
+  margin-bottom: 10px;
+}
+
+/* Unterüberschriften */
+h2 {
+  font-size: 1.5em;
+  color: #444;
+  margin-top: 30px;
+}
+
+h3 {
+  font-size: 1.2em;
+  color: #555;
+  margin-top: 20px;
+}
+
+/* Bullet-Liste mit Sternchen */
+br + * {
+  display: block;
+  margin-left: 20px;
+}
+
+br + *::before {
+  content: "• ";
+  color: #c20f2f;
+}
+
+/* Links */
+a {
+  color: #c20f2f;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  margin-top: 40px;
+  padding-top: 20px;
+  border-top: 1px solid #ccc;
+  text-align: center;
+  font-weight: bold;
+}
+
+/* Bild */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto 20px;
+}
